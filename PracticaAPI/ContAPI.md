@@ -2,7 +2,7 @@
 
 ► Link de la API utilizada: [PokeAPI](https://pokeapi.co/)
 
-_► Código Implementado:_ [Pokedex](./index.html)
+_► Código Implementado:_ [PokeCode](./index.html)
 
 ## Muestras del Programa
 
