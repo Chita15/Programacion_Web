@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>POKE  |  API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="card">
+        <div class="card-header">
+          <h1 id="name" class="card-title"></h1>
+        </div>
+        <div class="card-body">
+          <div class="flex-column">
+            <div class="col-md-3 text-center">
+              <img id="sprite" class="card-img-top" alt="">
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+              <p id="pokemon-pokedex"></p>
+              <p>&nbsp;&nbsp;</p>
+              <p id="id"></p>
+            </div>
+            <div class="row">
+              <p id="tipo-pokemon"></p>
+              <p>&nbsp;&nbsp;</p>
+              <p id="type"></p>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button id="updatePokemon" class="btn btn-primary">Generate New Pokémon</button>
+        </div>
+      </div>
+    </div>
+    <script>
+     
+          async function fetchPokemonData(pokemonID) {
+            const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonID}`);
+            const data = await response.json();
+            console.log(data);
+            return data;
+          }
+
+         
+          async function updatePokemonCard(pokemonID) {
+            const pokemonData = await fetchPokemonData(pokemonID);
+            const name = pokemonData.name;
+            const sprite = pokemonData.sprites.front_default;
+            const type = pokemonData.types[0].type.name;
+            const id = pokemonData.id;
+            const pokemonnum = "Pokedex Number:";
+            const pokemontipo = "Tipo:";
+
+            nombre = document.getElementById('name').textContent = name;
+            document.getElementById('sprite').src = sprite;
+            document.getElementById('type').textContent = type;
+            document.getElementById('id').textContent = `#${id}`;
+            document.getElementById('pokemon-pokedex').textContent = pokemonnum;
+            document.getElementById('tipo-pokemon').textContent = pokemontipo;
+
+          }
+
+         document.getElementById('updatePokemon').addEventListener('click', function(){
+          const pokemonID = Math.floor(Math.random() * 151) + 1;
+           updatePokemonCard(pokemonID);
+         })
+
+    </script>
+</html>
