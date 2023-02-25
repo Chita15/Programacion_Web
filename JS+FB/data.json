@@ -1,0 +1,225 @@
+[
+      {
+          "id": 1,
+          "name": "Host",
+          "yearReleased": "04 de diciembre 2020",
+          "language": "Inglés",
+          "director": "Rob Savage",
+          "Guion" : "Rob Savage, Gemma Hurley, Jed Shepherd",
+          "Duracion" : "1h 5min",
+          "Clasificacion" : "TV-MA",
+          "Trailer" : "https://www.youtube.com/watch?v=2hrj4w2mRyE"
+
+      },
+       {
+          "id": 2,
+          "name": "El conjuro 3: el diablo me obligó a hacerlo",
+          "yearReleased": "26 de mayo de 2021",
+          "language": "Inglés, latino",
+          "director": "Michael Chaves",
+          "Guion" : "David Leslie Johnson-McGoldrick",
+          "Duracion" : "1h 52min",
+          "Clasificacion" : "B",
+          "Trailer" : "https://www.youtube.com/watch?v=S8nlMJfE6pc"
+      },
+    
+      {
+          "id": 3,
+          "name": "El aro",
+          "yearReleased": "06 de diciembre de 2002",
+          "language": "Inglés",
+          "director": "Gore Verbinski",
+          "Guion" : "Ehren Kruger; Scott Frank; Kōji S.",
+          "Duracion" : "1h 55min",
+          "Clasificacion" : "B",
+          "Trailer" : "https://www.youtube.com/watch?v=yybjV3U68wc"
+      },
+      {
+          "id": 4,
+          "name": "Dahmer: El carnicero de Milwaukee",
+          "yearReleased": "21 de junio de 2002",
+          "language": "Inglés",
+          "director": "David Jacobson",
+          "Guion" : "David Jacobson",
+          "Duracion" : "1h 42min",
+          "Clasificacion" : "R",
+          "Trailer" : "https://www.youtube.com/watch?v=3M_eBsPUJFY"
+      },
+      {
+          "id": 5,
+          "name": "El Conjuro",
+          "yearReleased": "23 de agosto de 2013",
+          "language": "Inglés",
+          "director": "James Wan",
+          "Guion" : "Chad Hayes, Carey Hayes",
+          "Duracion" : "1h 52min",
+          "Clasificacion" : "B-15",
+          "Trailer" : "https://www.youtube.com/watch?v=_zU1gLWGnpg"
+      },
+      {
+          "id": 6,
+          "name": "Una llamada pérdida",
+          "yearReleased": "04 de enero de 2008",
+          "language": "Inglés",
+          "director": "Eric Vallete",
+          "Guion" : "Andrew Klaven, Yasushi Akimoto",
+          "Duracion" : "1h 27min",
+          "Clasificacion" : "B-15",
+          "Trailer" : "https://www.youtube.com/watch?v=H9-fOJHnjm0"
+      },
+      {
+          "id": 7,
+          "name": "Siniestro",
+          "yearReleased": "12 de octubre de 2012",
+          "language": "Inglés",
+          "director": "Scott Derrickson",
+          "Guion" : "Scott Derrickson, C. Robert Cargill",
+          "Duracion" : "1h 50min",
+          "Clasificacion" : "B-15",
+          "Trailer" : "https://www.youtube.com/watch?v=6BiMQPil_4M"
+      },
+      {
+          "id": 8,
+          "name": "La noche del demonio",
+          "yearReleased": "17 de junio de 2011",
+          "language": "Inglés",
+          "director": "James Wan",
+          "Guion" : "Leigh Whannell",
+          "Duracion" : "1h 43min",
+          "Clasificacion" : "B",
+          "Trailer" : "https://www.youtube.com/watch?v=FRW3K0LlsD0"
+      },
+      {
+          "id": 9,
+          "name": "La posesión de Verónica",
+          "yearReleased": "25 de agosto de 2017",
+          "language": "Inglés",
+          "director": "Paco Plaza",
+          "Guion" : "Paco Plaza, Fernando Navarro",
+          "Duracion" : "1h 45min",
+          "Clasificacion" : "B-15",
+          "Trailer" : "https://www.youtube.com/watch?v=wNlMIvKnjOQ"
+      },
+      {
+          "id": 10,
+          "name": "Cuando las luces se apagan",
+          "yearReleased": "08 de junio de 2016",
+          "language": "Inglés",
+          "director": "David F. Sandberg",
+          "Guion" : "Eric Heisserer",
+          "Duracion" : "1h 21min",
+          "Clasificacion" : "B-15",
+          "Trailer" : "https://www.youtube.com/watch?v=HXotyU3A18M"
+      },
+      {
+        "id": 11,
+        "name": "Krampus: El Terror de la Navidad",
+        "yearReleased": "04 de diciembre de 2015",
+        "language": "Inglés",
+        "director": "Michael Dougherty",
+        "Guion" : "Michael Dougherty",
+        "Duracion" : "1h 38min",
+        "Clasificacion" : "B",
+        "Trailer" : "https://www.youtube.com/watch?v=I9CKzTOObgU"
+    },
+    {
+        "id": 12,
+        "name": "Tiburón",
+        "yearReleased": "20 de junio de 1975",
+        "language": "Inglés",
+        "director": "Steven Spielberg",
+        "Guion" : "Steven Spielberg, Peter Benchley, Carl Gottlieb, Howard Sackler",
+        "Duracion" : "2h 4min",
+        "Clasificacion" : "B",
+        "Trailer" : "https://www.youtube.com/watch?v=rqTjkKHh7xM"
+    },
+    {
+        "id": 13,
+        "name": "¡Nop!",
+        "yearReleased": "22 de julio de 2022",
+        "language": "Inglés",
+        "director": "Jordan Peele",
+        "Guion" : "Jordan Peele",
+        "Duracion" : "2h 10min",
+        "Clasificacion" : "B",
+        "Trailer" : "https://www.youtube.com/watch?v=In8fuzj3gck"
+    },
+    {
+        "id": 14,
+        "name": "El Teléfono Negro",
+        "yearReleased": "23 de junio de 2022",
+        "language": "Inglés",
+        "director": "Scott Derrickson",
+        "Guion" : "Joe Hill",
+        "Duracion" : "1h 42min",
+        "Clasificacion" : "B-15",
+        "Trailer" : "https://www.youtube.com/watch?v=3eGP6im8AZA"
+    },
+    {
+        "id": 15,
+        "name": "Terror a 47 metros",
+        "yearReleased": "16 de junio de 2017",
+        "language": "Inglés",
+        "director": "Johannes Roberts",
+        "Guion" : "Ernest Riera; Johannes Roberts",
+        "Duracion" : "1h 29min",
+        "Clasificacion" : "B",
+        "Trailer" : "https://www.youtube.com/watch?v=2rixs70DAUA"
+    },
+    {
+        "id": 16,
+        "name": "Viernes 13",
+        "yearReleased": "30 de octubre de 1980",
+        "language": "Inglés",
+        "director": "Sean S. Cunningham",
+        "Guion" : "Sean S. Cunningham, Victor Miller",
+        "Duracion" : "1h 35min",
+        "Clasificacion" : "C",
+        "Trailer" : "https://www.youtube.com/watch?v=sAzkW7HFh5U"
+    },
+    {
+        "id": 17,
+        "name": "Pesadilla en la calle Elm Street",
+        "yearReleased": "17 de abril de 1986",
+        "language": "Inglés",
+        "director": "Wes Craven",
+        "Guion" : "Wes Craven",
+        "Duracion" : "1h 31min",
+        "Clasificacion" : "C",
+        "Trailer" : "https://www.youtube.com/watch?v=HXotyU3A18M"
+    },      
+    {
+        "id": 18,
+        "name": "Freddy Contra Jason",
+        "yearReleased": "19 de septiembre de 2003",
+        "language": "Inglés",
+        "director": "Ronny Yu",
+        "Guion" : "Damian Shannon; Mark Swift",
+        "Duracion" : "1h 38min",
+        "Clasificacion" : "C",
+        "Trailer" : "https://www.youtube.com/watch?v=rLsWWX74TeI"
+    },
+    {
+        "id": 19,
+        "name": "Halloween Kills: La noche aún no termina",
+        "yearReleased": "15 de octubre de 2021",
+        "language": "Inglés",
+        "director": "David Gordon Green",
+        "Guion" : "David Gordon Green, Danny McBride",
+        "Duracion" : "1h 46min",
+        "Clasificacion" : "C",
+        "Trailer" : "https://www.youtube.com/watch?v=Gz79BjspOI0"
+    },
+    {
+        "id": 20,
+        "name": "Scream: grita antes de morir",
+        "yearReleased": "31 de octubre de 1997",
+        "language": "Inglés",
+        "director": "Wes Craven",
+        "Guion" : "Kevin Williamson",
+        "Duracion" : "1h 51min",
+        "Clasificacion" : "B-15",
+        "Trailer" : "https://www.youtube.com/watch?v=i3J6ACKQ7K0"
+    }    
+
+]
