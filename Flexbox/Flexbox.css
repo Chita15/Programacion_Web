@@ -1,0 +1,274 @@
+Flexbox
+
+1) Solución Nivel 1:
+
+#pond {
+  display: flex;
+
+/*La propiedad justify-content permite la alineación de la rana de forma 	
+horizontal y en este caso con el uso del valor "flex-end" hacemos la alineación 
+horizontal hacia la derecha*/
+
+		justify-content: flex-end 
+
+}
+
+2) Solución Nivel 2:
+
+#pond {
+  display: flex;
+
+/*La propiedad justify-content permite la alieación de la rana de forma 	
+horizontal y en este caso con el uso del valor "center" hacemos la alineación 
+horizontal hacia el centro*/
+
+	justify-content: center  
+
+}
+
+3) Solución Nivel 3:
+
+#pond {
+  display: flex;
+
+/*En este caso el valor "space-around" nos permite 
+mostrar los elementos que tienen la misma separación
+alrededor de ellos, por ende las ranas se unen con las
+hojas que tienen cerca*/
+
+justify-content: space-around
+
+}
+
+4) Solución Nivel 4:
+
+#pond {
+  display: flex;
+
+/*En este nivel se utiliza space-between
+para mostrar los elementos que tienen la
+misma distancia entre ellos*/
+
+justify-content: space-between;
+
+}
+
+5) Solución Nivel 5:
+
+#pond {
+  display: flex;
+
+/*Se usa el valor flex-end que nos permite alinear
+las ranitas a la parte inferior del contenedor*/
+
+align-items: flex-end;
+
+}
+
+6) Solución Nivel 6:
+
+#pond {
+  display: flex;
+
+  /*El valor center nos permite 
+  colocar los elementos en el centro*/
+
+justify-content: center;
+
+align-items: center;
+
+}
+
+7) Solución Nivel 7:
+
+#pond {
+  display: flex;
+
+  /*El valor space-around nos muestra los
+  elementos que tienen la misma distancia
+  entre ellos*/
+
+justify-content: space-around;
+
+align-items: flex-end;
+
+}
+
+8) Solución Nivel 8:
+
+#pond {
+  display: flex;
+
+  /*Las ranitas se colocan en dirección
+  opuesta al texto con la propiedad row-reverse*/
+
+flex-direction: row-reverse;
+}
+
+9) Solución Nivel 9:
+
+#pond {
+  display: flex;
+
+  /*El valor column nos permite colocar
+  elementos de arriba hacia abajo*/
+
+flex-direction: column;
+}
+
+10) Solución Nivel 10:
+
+#pond {
+  display: flex;
+
+  /*row-reverse: Las ranitas se colocan en dirección
+  opuesta al texto con la propiedad row-reverse.
+  flex-end: Nos permite alinear
+  las ranitas a la parte inferior del contenedor*/
+
+justify-content: flex-end;
+flex-direction: row-reverse;
+}
+
+11) Solución Nivel 11:
+
+#pond {
+  display: flex;
+flex-direction: column; /*Elementos de arriba hacia abajo*/
+justify-content: flex-end;/*Alinear a la parte inferior*/
+}
+
+12) Solución Nivel 12:
+
+#pond {
+  display: flex;
+
+/*column-reverse: Las ranitas se colocan de abajo hacia arriba
+space-between: Muestra los elementos que tienen la misma
+distancia entre ellos*/
+
+flex-direction: column-reverse;
+justify-content: space-between;
+}
+
+13) Solución Nivel 13:
+
+#pond {
+  display: flex;
+justify-content: center; /*Las ranitas se alinean en el centro*/
+flex-direction: row-reverse;/*Las ranitas se colocan en la dirección opuesta al texto*/
+align-items: flex-end;/*Alinear a la parte inferior del contenedor*/
+}
+
+14) Solución Nivel 14:
+
+#pond {
+  display: flex;
+}
+
+/*Se indica el color del elemento y con la propiedad order
+para reordenar en este caso a la rana amarilla*/
+
+.yellow {
+order: 3;
+}
+
+15) Solución Nivel 15:
+
+#pond {
+  display: flex;
+}
+
+/*Se utiliza la propiedad order para reordenar a posición de
+la rana roja*/
+
+.red {
+order: -3;
+}
+
+16) Solución Nivel 16:
+
+#pond {
+  display: flex;
+  align-items: flex-start; 
+}
+
+.yellow {
+align-self: flex-end;/*Se aplica el valor de flex-end para un elemento en 
+especifico, en este caso se indica con el color amarillo*/
+}
+
+17) Solución Nivel 17:
+
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+/*Se reordena la posición de la rana amarilla tanto en columna
+como en fila*/
+.yellow {
+align-self: flex-end;
+order: 1;
+}
+
+18) Solución Nivel 18:
+
+#pond {
+  display: flex;
+flex-wrap: wrap;/*Los elementos se envuelven alrededor de las líneas adicionales*/
+}
+
+19) Solución Nivel 19:
+
+#pond {
+  display: flex;
+flex-direction: column; /*Se reordena por columna*/
+flex-wrap: wrap;/*Los elementos se envuelven alrededor de las líneas adicionales*/
+}
+
+20) Solución Nivel 20:
+
+#pond {
+  display: flex;
+flex-flow: column wrap;/*Se combinana los valores para poder ordenar las ranitas*/
+}
+
+21) Solución Nivel 21:
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;/*Se envuelven alrededor de las líneas*/
+align-content: flex-start;/*Se posicionan en la parte superior*/
+}
+
+22) Solución Nivel 22:
+
+#pond {
+  display: flex;/**/
+  flex-wrap: wrap;/**/
+align-content: flex-end;/*Se ordenan al inferior*/
+}
+
+23) Solución Nivel 23:
+
+#pond {
+  display: flex;
+  flex-wrap: wrap;/*Se envuelven alrededor de las líneas*/
+flex-direction: column-reverse;/*Se invierte en base a la columna*/
+align-content: center;/*Alineacion al centro*/
+}
+
+24) Solución Nivel 24:
+
+/*Para este punto se realizar una mezcla de las propiedades
+con una mezcla de los valores para poder ordenar las ranitas
+que se tienen*/
+
+#pond {
+  display: flex;
+justify-content:center; /*Alineación al centro*/
+flex-flow:column-reverse wrap-reverse;/*Se invierte*/
+align-content:space-between;/*Líneas con la misma distancia entre ellos*/
+
+}
+
